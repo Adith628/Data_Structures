@@ -1,14 +1,15 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
 
-int main(){
-    int i,j,n=5;
-    for(i=0;i<n;i++)
+int main()
+{
+    int i, j, n = 5;
+    for (i = 0; i < n; i++)
     {
-        for(j=1;j<=n-i;j++)
+        for (j = 1; j <= n - i; j++)
         {
-            cout<<j<<" ";
+            cout << j << " ";
         }
-        cout<<endl;
+        cout << endl;
     }
 }
